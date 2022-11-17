@@ -7,6 +7,10 @@ android {
     namespace 'com.example.roomdbexample'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.roomdbexample"
         minSdk 21
